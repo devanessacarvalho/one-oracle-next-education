@@ -5,11 +5,10 @@
     padding: 0;
 }
 
-
 body {
     background-color: #000000;
     color: #F6F6F6;
-    heigth: 100vh;
+    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -20,11 +19,15 @@ strong {
 .apresentacao {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
 }
 
 .apresentacao__conteudo {
     width: 615px;
-    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -50,6 +53,8 @@ strong {
     font-weight: 600;
     color: #000000;
     text-decoration: none;
+    text-align: center;
     padding: 21.5px 0;
+    width: 280px;
 }
 
