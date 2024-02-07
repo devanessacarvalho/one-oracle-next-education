@@ -46,6 +46,7 @@ strong {
     align-items: center;
     justify-content: space-between;
     padding: 8% 15%;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -96,6 +97,10 @@ strong {
 
 .apresentacao__links__link:hover {
     background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem{
+    width: 50%;
 }
 
 .rodape {
