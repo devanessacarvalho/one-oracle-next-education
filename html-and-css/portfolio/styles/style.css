@@ -36,7 +36,7 @@ strong {
 
 .cabecalho__nav__link {
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     color:var(--cor-tertiary);
 }
@@ -57,12 +57,12 @@ strong {
 
 .apresentacao__conteudo__titulo {
     font-family: var(--font-primary);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .apresentacao__conteudo__texto {
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links {
@@ -75,14 +75,14 @@ strong {
 
 .apresentacao__links__subtitulo {
     font-family: var(--font-primary);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link {
     border: 2px solid var(--cor-tertiary);
     border-radius: 8px;
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-secondary);
     text-decoration: none;
@@ -102,7 +102,7 @@ strong {
     background-color: var(--cor-tertiary);
     color:var(--cor-primary);
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     padding: 24px;
 }
