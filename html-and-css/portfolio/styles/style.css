@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
 
+:root {
+    --cor-primary: #000000;
+    --cor-secondary: #F6F6F6;
+    --cor-tertiary: #22D4FD;
+    --cor-hover: #272727;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primary);
+    color: var(--cor-secondary);
     box-sizing: border-box;
 }
 
 strong {
-    color: #22D4FD;
+    color: var(--cor-tertiary);
 }
 
 .cabecalho {
@@ -28,7 +35,7 @@ strong {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     text-decoration: none;
-    color:#22D4FD;
+    color:var(--cor-tertiary);
 }
 
 .apresentacao {
@@ -69,12 +76,12 @@ strong {
 }
 
 .apresentacao__links__link {
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-tertiary);
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #F6F6F6;
+    color: var(--cor-secondary);
     text-decoration: none;
     text-align: center;
     padding: 21.5px 0;
@@ -85,12 +92,12 @@ strong {
 }
 
 .apresentacao__links__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .rodape {
-    background-color: #22D4FD;
-    color:#000000;
+    background-color: var(--cor-tertiary);
+    color:var(--cor-primary);
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     text-align: center;
