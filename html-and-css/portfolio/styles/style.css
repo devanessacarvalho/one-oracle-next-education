@@ -59,7 +59,7 @@ strong {
     gap: 40px;
 }
 
-.apresentacao__conteudo__titulo {
+.apresentacao__conteudo__title {
     font-family: var(--font-primary);
     font-size: 2.25rem;
 }
