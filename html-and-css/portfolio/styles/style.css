@@ -31,12 +31,12 @@ strong {
     padding: 2% 0% 0% 15%;
 }
 
-.cabecalho__nav {
+.cabecalho__menu {
     display: flex;
     gap: 80px;
 }
 
-.cabecalho__nav__link {
+.cabecalho__menu__link {
     font-family: var(--font-secondary);
     font-size: 1.5rem;
     font-weight: var(--peso-semibold);
@@ -82,7 +82,7 @@ strong {
     font-size: 1.5rem;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     border: 2px solid var(--cor-tertiary);
     border-radius: 8px;
     font-family: var(--font-secondary);
@@ -98,7 +98,7 @@ strong {
     gap: 16px;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
