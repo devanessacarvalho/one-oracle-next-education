@@ -8,6 +8,8 @@
 
     --font-primary: 'Krona One', sans-serif;
     --font-secondary: 'Montserrat', sans-serif;
+
+    --peso-semibold: 600;
 }
 
 * {
@@ -37,6 +39,7 @@ strong {
 .cabecalho__nav__link {
     font-family: var(--font-secondary);
     font-size: 1.5rem;
+    font-weight: var(--peso-semibold);
     text-decoration: none;
     color:var(--cor-tertiary);
 }
@@ -84,7 +87,7 @@ strong {
     border-radius: 8px;
     font-family: var(--font-secondary);
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: var(--peso-semibold);
     color: var(--cor-secondary);
     text-decoration: none;
     text-align: center;
